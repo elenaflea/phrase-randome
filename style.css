@@ -1,0 +1,96 @@
+body {
+    background-image: url(back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    }
+    
+    #container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    }
+    #btn {
+        font-family: 'Bitter', serif;
+        background-color: transparent;
+        background-image: radial-gradient( circle farthest-corner at -14.3% -17.5%,  rgba(245,168,168,0.8) 4%, rgba(164,168,248,0.8) 100.2% );
+        border-radius: 10px;
+        padding: 10px 35px;
+        font-size: 30px;
+        border: 2px solid #fff;
+        color: #fff;
+        margin: auto;
+        cursor: pointer;
+    }
+    #btn:hover {
+        border: 2px solid #FFF8A6;
+        color: #FFF8A6;
+    }
+    hr {
+        background-color: #fff;
+        height: 2px;
+        width: 200px;
+        margin: 30px;
+        border: none;
+        
+    }
+    .img {
+        display: flex;
+        justify-content: center;
+        margin: 50px auto;
+    }
+    img{
+        margin-top: 10px;
+    }
+    #par {
+        display: none;
+        font-family: 'Bitter', serif;
+        font-size: 28px;
+        background-color: transparent;
+        background-image: radial-gradient( circle 919px at 1.7% 6.1%,  rgba(41,58,76,0.5) 0%, rgba(40,171,226,0.5) 100.2% );
+        color: #fff;
+        margin: 50px auto;
+        padding: 20px;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        text-align: center;
+        width: 50%;
+    }
+    .link {
+        display: flex;
+        justify-content: center;
+    }
+    .fb{
+        margin: 5px 5px 30px 5px;
+    }
+
+    @media all and (max-width: 800px) {
+        #btn {
+            font-size: 20px;
+            width: 80%;
+        }
+        hr {
+            width: 60px;
+        }
+        #par {
+            font-size: 22px;
+            width: 80%;
+        }
+    }
+
+    @media all and (max-width: 500px) {
+        #btn {
+            font-size: 20px;
+            width: 80%;
+        }
+        hr {
+            width: 60px;
+        }
+        #par {
+            font-size: 22px;
+            width: 80%;
+            margin-top: 20px;
+        }
+    }
